@@ -1323,6 +1323,10 @@ span.chip.bg-color {
     color: #fff !important;
 }
 
+a.btn-floating.btn-large.bg-color {
+    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%) !important;
+}
+
 .chip-container .chip:hover {
     color: #fff;
     background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%) !important;
