@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="HTML,CSS,JavaScript,JQuery,java,linux,小白,编程,技术博客等">
-    <meta name="description" content="本网站是个人兴趣爱好，总结分享经验，记录生活点滴的平台，希望在以后的学习旅途中，走出自己的风景。">
+    <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -126,7 +126,7 @@
         <div class="logo-name">狮说编程</div>
         <div class="logo-desc">
             
-            本网站是个人兴趣爱好，总结分享经验，记录生活点滴的平台，希望在以后的学习旅途中，走出自己的风景。
+            Never really desperate, only the lost of the soul.
             
         </div>
     </div>
@@ -332,28 +332,7 @@
 
             <div class="description center-align">
                 
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "如果放弃太早，你永远都不知道自己会错过什么。",
-                            
-                                "没有伞的孩子必须努力奔跑！",
-                            
-                                "花开不是为了花落，而是为了开的更加灿烂。",
-                            
-                                "没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。",
-                            
-                        ],
-                        startDelay: 400,
-                        typeSpeed: 200,
-                        loop: true,
-                        backSpeed: 100,
-                        showCursor: true
-                    });
-                </script>
+                    
                 
             </div>
         </div>
@@ -494,8 +473,19 @@
 
         let carouselIntervalId;
         
+        // Loop to call the next cover article picture.
+        let autoCarousel = function () {
+            carouselIntervalId = setInterval(function () {
+                coverSlider.carousel('next');
+            }, 6000);
+        };
+        autoCarousel();
+        
 
         function restartPlay() {
+            
+            clearInterval(carouselIntervalId);
+            autoCarousel();
             
         };
 

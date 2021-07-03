@@ -3,11 +3,11 @@
   <title>狮说编程</title>
   
   <subtitle>搬砖是生活，编程是艺术</subtitle>
-  <link href="https://github.com/zengnanyang/zengnanyang.github.io/atom.xml" rel="self"/>
+  <link href="https://zengnanyang.github.io/atom.xml" rel="self"/>
   
-  <link href="https://github.com/zengnanyang/zengnanyang.github.io/"/>
+  <link href="https://zengnanyang.github.io/"/>
   <updated>2021-07-02T14:19:16.726Z</updated>
-  <id>https://github.com/zengnanyang/zengnanyang.github.io/</id>
+  <id>https://zengnanyang.github.io/</id>
   
   <author>
     <name>曾南洋</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello Hexo</title>
-    <link href="https://github.com/zengnanyang/zengnanyang.github.io/2021/07/02/hello-hexo/"/>
-    <id>https://github.com/zengnanyang/zengnanyang.github.io/2021/07/02/hello-hexo/</id>
+    <link href="https://zengnanyang.github.io/2021/07/02/hello-hexo/"/>
+    <id>https://zengnanyang.github.io/2021/07/02/hello-hexo/</id>
     <published>2021-07-02T01:25:00.000Z</published>
     <updated>2021-07-02T14:19:16.726Z</updated>
     
@@ -34,17 +34,17 @@
     
     
     
-    <category term="Hexo" scheme="https://github.com/zengnanyang/zengnanyang.github.io/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://zengnanyang.github.io/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://github.com/zengnanyang/zengnanyang.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://zengnanyang.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello Blog</title>
-    <link href="https://github.com/zengnanyang/zengnanyang.github.io/2018/09/07/hello-blog/"/>
-    <id>https://github.com/zengnanyang/zengnanyang.github.io/2018/09/07/hello-blog/</id>
+    <link href="https://zengnanyang.github.io/2018/09/07/hello-blog/"/>
+    <id>https://zengnanyang.github.io/2018/09/07/hello-blog/</id>
     <published>2018-09-07T01:25:00.000Z</published>
     <updated>2021-07-02T10:34:58.059Z</updated>
     
@@ -59,19 +59,19 @@
     
     
     
-    <category term="Markdown" scheme="https://github.com/zengnanyang/zengnanyang.github.io/categories/Markdown/"/>
+    <category term="Markdown" scheme="https://zengnanyang.github.io/categories/Markdown/"/>
     
     
-    <category term="Typora" scheme="https://github.com/zengnanyang/zengnanyang.github.io/tags/Typora/"/>
+    <category term="Typora" scheme="https://zengnanyang.github.io/tags/Typora/"/>
     
-    <category term="Markdown" scheme="https://github.com/zengnanyang/zengnanyang.github.io/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://zengnanyang.github.io/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://github.com/zengnanyang/zengnanyang.github.io/2018/09/07/hello-world/"/>
-    <id>https://github.com/zengnanyang/zengnanyang.github.io/2018/09/07/hello-world/</id>
+    <link href="https://zengnanyang.github.io/2018/09/07/hello-world/"/>
+    <id>https://zengnanyang.github.io/2018/09/07/hello-world/</id>
     <published>2018-09-07T01:25:00.000Z</published>
     <updated>2021-07-02T14:20:07.295Z</updated>
     
@@ -86,10 +86,10 @@
     
     
     
-    <category term="Hexo" scheme="https://github.com/zengnanyang/zengnanyang.github.io/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://zengnanyang.github.io/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://github.com/zengnanyang/zengnanyang.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://zengnanyang.github.io/tags/Hexo/"/>
     
   </entry>
   
