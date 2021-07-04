@@ -6,7 +6,7 @@
   <link href="https://zengnanyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zengnanyang.github.io/"/>
-  <updated>2021-07-03T14:27:31.701Z</updated>
+  <updated>2021-07-04T15:53:56.745Z</updated>
   <id>https://zengnanyang.github.io/</id>
   
   <author>
@@ -17,79 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello Hexo</title>
-    <link href="https://zengnanyang.github.io/blog/2708806665.html"/>
-    <id>https://zengnanyang.github.io/blog/2708806665.html</id>
-    <published>2021-07-02T01:25:00.000Z</published>
-    <updated>2021-07-03T14:27:31.701Z</updated>
+    <title>Markdown入门教程</title>
+    <link href="https://zengnanyang.github.io/blog/1300200644.html"/>
+    <id>https://zengnanyang.github.io/blog/1300200644.html</id>
+    <published>2021-07-04T04:09:12.000Z</published>
+    <updated>2021-07-04T15:53:56.745Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;一-markdown是什么&quot;&gt;一、Markdown是什么&lt;/span&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a</summary>
         
       
     
     
     
-    <category term="Hexo" scheme="https://zengnanyang.github.io/categories/Hexo/"/>
+    <category term="基础教程" scheme="https://zengnanyang.github.io/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
     
-    
-    <category term="Hexo" scheme="https://zengnanyang.github.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello Blog</title>
-    <link href="https://zengnanyang.github.io/blog/3393309510.html"/>
-    <id>https://zengnanyang.github.io/blog/3393309510.html</id>
-    <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2021-07-03T14:31:15.043Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="Markdown" scheme="https://zengnanyang.github.io/categories/Markdown/"/>
-    
-    
-    <category term="Typora" scheme="https://zengnanyang.github.io/tags/Typora/"/>
     
     <category term="Markdown" scheme="https://zengnanyang.github.io/tags/Markdown/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://zengnanyang.github.io/blog/1243066710.html"/>
-    <id>https://zengnanyang.github.io/blog/1243066710.html</id>
-    <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2021-07-03T14:35:47.044Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://zengnanyang.github.io/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://zengnanyang.github.io/tags/Hexo/"/>
+    <category term="Typora" scheme="https://zengnanyang.github.io/tags/Typora/"/>
     
   </entry>
   

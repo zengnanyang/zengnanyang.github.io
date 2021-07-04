@@ -4,75 +4,25 @@
   
     
     <entry>
-      <title>Hello Hexo</title>
-      <link href="/blog/2708806665.html"/>
-      <url>/blog/2708806665.html</url>
+      <title>Markdown入门教程</title>
+      <link href="/blog/1300200644.html"/>
+      <url>/blog/1300200644.html</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3><span id="run-server">Run server</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3><span id="generate-static-files">Generate static files</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2><span id="一-markdown是什么">一、Markdown是什么</span></h2><blockquote><p><a href="https://baike.baidu.com/item/markdown/3245829?fr=aladdin">Markdown</a> 是一种轻量级标记语言，它允许使用易读易写的<strong>纯文本</strong>格式编写文档。Markdown 语言在2004年由 <strong>约翰・格鲁伯</strong> 创建，用它编写的文档后缀为 <code>.md</code> 或 <code>.markdown</code> 。</p></blockquote><h2><span id="二-markdown的应用">二、Markdown的应用</span></h2><blockquote><p>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。<br>当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。</p></blockquote><h2><span id="三-如何使用markdown">三、如何使用Markdown</span></h2><h3><span id="1-标题标记">1、标题标记</span></h3><ul><li>使用 = 和 - 标记一级和二级标题</li></ul><pre class=" language-markdown"><code class="language-markdown">这是一级标题==========这是二级标题<span class="token hr punctuation">----------</span></code></pre><ul><li>使用 # 号标记，可表示 1-6 级标题</li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> 一级标题</span><span class="token title important"><span class="token punctuation">##</span> 二级标题</span><span class="token title important"><span class="token punctuation">###</span> 三级标题</span><span class="token title important"><span class="token punctuation">####</span> 四级标题</span><span class="token title important"><span class="token punctuation">#####</span> 五级标题</span><span class="token title important"><span class="token punctuation">######</span> 六级标题</span></code></pre><h3><span id="2-段落标记">2、段落标记</span></h3><ul><li>使用两个以上空格+回车</li></ul><img src="https://cdn.jsdelivr.net/gh/zengnanyang/images/markdown/mk-section1.jpg" style="float: left; width: 1105px; box-shadow: none; margin: unset; border: 1.5px solid rgba(230,230,230,1); margin: 0 0 15px 0;"><ul><li>在段落的后面使用一个空行</li></ul><img src="https://cdn.jsdelivr.net/gh/zengnanyang/images/markdown/mk-section2.jpg" style="float: left; width: 1105px; box-shadow: none; margin: unset; border: 1.5px solid rgba(230,230,230,1); margin: 0 0 15px 0;"><h3><span id="3-分割标记">3、分割标记</span></h3><ul><li>在一行中用三个以上的 * 或 + 或 - 来建立一个分隔线，行内不能有其他东西</li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token hr punctuation">******</span>++++++<span class="token hr punctuation">------</span></code></pre><ul><li>在 * 或 - 中间插入空格</li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token hr punctuation">* * *</span><span class="token hr punctuation">- - -</span></code></pre><h3><span id="4-文本标记">4、文本标记</span></h3><h4><span id="1字体">（1）字体</span></h4><ul><li>斜体：在文本的两端各加一个 * 或 _</li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token italic"><span class="token punctuation">*</span>斜体文本<span class="token punctuation">*</span></span><span class="token italic"><span class="token punctuation">_</span>斜体文本<span class="token punctuation">_</span></span></code></pre><ul><li>粗体：在文本的两端各加两个 * 或 _</li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token bold"><span class="token punctuation">**</span>粗体文本<span class="token punctuation">**</span></span><span class="token bold"><span class="token punctuation">__</span>粗体文本<span class="token punctuation">__</span></span></code></pre><ul><li>粗斜体：在文本的两端各加三个 * 或 _</li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token bold"><span class="token punctuation">**</span>*粗斜体文本<span class="token punctuation">**</span></span>*<span class="token bold"><span class="token punctuation">__</span>_粗斜体文本<span class="token punctuation">__</span></span>_</code></pre><h4><span id="2删除线">（2）删除线</span></h4><ul><li>在文字的两端加上两个波浪线~~</li></ul><pre class=" language-markdown"><code class="language-markdown">~~删除线~~</code></pre><h4><span id="3下划线">（3）下划线</span></h4><ul><li>使用HTML的<u></u>标签</li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>u</span><span class="token punctuation">></span></span>下划线<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>u</span><span class="token punctuation">></span></span></code></pre><h4><span id="4脚注">（4）脚注</span></h4><ul><li>Markdown脚注的格式是<code>[^要脚注的对象]</code></li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">^要脚注的对象</span><span class="token punctuation">]</span><span class="token punctuation">:</span> 这是脚注的格式。</span></code></pre><h3><span id="5-列表标记">5、列表标记</span></h3><h4><span id="1无序列表">（1）无序列表</span></h4><ul><li>以 * 或 + 或 - 开头，符号与内容间有一个空格</li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token list punctuation">*</span> 无序列表方式一<span class="token list punctuation">+</span> 无序列表方式二<span class="token list punctuation">-</span> 无序列表方式三</code></pre><h4><span id="2有序列表">（2）有序列表</span></h4><ul><li>以数字加上 . 号用来表示有序列表</li></ul><pre class=" language-markdown"><code class="language-markdown"><span class="token list punctuation">1.</span> 有序列表1<span class="token list punctuation">2.</span> 有序列表2</code></pre>]]></content>
       
       
       <categories>
           
-          <category> Hexo </category>
+          <category> 基础教程 </category>
           
       </categories>
       
       
         <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello Blog</title>
-      <link href="/blog/3393309510.html"/>
-      <url>/blog/3393309510.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3><span id="run-server">Run server</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3><span id="generate-static-files">Generate static files</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Markdown </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Typora </tag>
             
             <tag> Markdown </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/blog/1243066710.html"/>
-      <url>/blog/1243066710.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3><span id="run-server">Run server</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3><span id="generate-static-files">Generate static files</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
+            <tag> Typora </tag>
             
         </tags>
       
