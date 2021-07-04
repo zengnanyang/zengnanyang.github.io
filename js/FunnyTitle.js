@@ -7,7 +7,7 @@ var OriginTitle = document.title;
      }
      else {
          // $('[rel="icon"]').attr('href', "https://cdn.jsdelivr.net/gh/guixinchn/image/blog/favicon.png");
-         document.title = '(*´∇｀*) 欢迎回来~ ' + OriginTitle;
+         document.title = '(*´∇｀*) 欢迎回来~ ';
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
          }, 2000);
