@@ -291,7 +291,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/zengnanyang/images/markdown/markdown-senior.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/zengnanyang/images/markdown/markdown-advance.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -437,28 +437,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-07-10
+                    2021-02-27
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-07-11
+                    2021-02-27
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4
+                    600
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -478,7 +478,125 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2><span id="一-前言">一、前言</span></h2><h2><span id="二">二、</span></h2>
+                <h2><span id="一-前言">一、前言</span></h2><blockquote>
+<p>通过对Markdown基本语法的学习，大家一定对它的强大有所认识，但它的强大远不止这些，本讲继续介绍如何绘制流程图、时序图和甘特图。</p>
+</blockquote>
+<h2><span id="二-课程链接">二、课程链接</span></h2><ul>
+<li><a target="_blank" rel="noopener" href="https://zengnanyang.top/2961552341.html">Markdown入门教程（一）</a></li>
+<li><a target="_blank" rel="noopener" href="https://zengnanyang.top/2157141773.html">Markdown入门教程（二）</a></li>
+</ul>
+<h2><span id="三-语法介绍">三、语法介绍</span></h2><h3><span id="1-流程图">1、流程图</span></h3><ul>
+<li>横向流程图</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">​```mermaid
+graph LR
+A[方形] -->B(圆角)
+<span class="token code keyword">    B --> C{条件a}</span>
+<span class="token code keyword">    C -->|a=1| D[结果1]</span>
+<span class="token code keyword">    C -->|a=2| E[结果2]</span>
+<span class="token code keyword">    F[横向流程图]</span>
+​```
+</code></pre>
+<ul>
+<li>纵向流程图</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">​```mermaid
+graph TD
+A[方形] --> B(圆角)
+<span class="token code keyword">    B --> C{条件a}</span>
+<span class="token code keyword">    C --> |a=1| D[结果1]</span>
+<span class="token code keyword">    C --> |a=2| E[结果2]</span>
+<span class="token code keyword">    F[竖向流程图]</span>
+​```
+</code></pre>
+<ul>
+<li>标准流程图（横向）</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">​```flow
+st=>start: 开始框
+op=>operation: 处理框
+cond=>condition: 判断框(是或否?)
+sub1=>subroutine: 子流程
+io=>inputoutput: 输入输出框
+e=>end: 结束框
+st->op->cond
+cond(yes)->io->e
+cond(no)->sub1(right)->op
+​```
+</code></pre>
+<ul>
+<li>标准流程图（纵向）</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">​```flow
+st=>start: 开始框
+op=>operation: 处理框
+cond=>condition: 判断框(是或否?)
+sub1=>subroutine: 子流程
+io=>inputoutput: 输入输出框
+e=>end: 结束框
+st(right)->op(right)->cond
+cond(yes)->io(bottom)->e
+cond(no)->sub1(right)->op
+​```
+</code></pre>
+<h3><span id="2-时序图">2、时序图</span></h3><ul>
+<li>UML时序图</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">​```sequence
+Title: 标题：复杂使用
+对象A->对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B-->对象A: 我很好(响应)
+对象B->小三: 你好吗
+小三-->>对象A: 对象B找我了
+对象A->对象B: 你真的好吗？
+Note over 小三,对象B: 我们是朋友
+participant C
+Note right of C: 没人陪我玩
+​```
+</code></pre>
+<ul>
+<li>标准UML时序图</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">​```mermaid
+%% 时序图例子,-> 直线，-->虚线，->>实线箭头
+  sequenceDiagram
+<span class="token code keyword">    participant 张三</span>
+<span class="token code keyword">    participant 李四</span>
+<span class="token code keyword">    张三->王五: 王五你好吗？</span>
+<span class="token code keyword">    loop 健康检查</span>
+<span class="token code keyword">        王五->王五: 与疾病战斗</span>
+<span class="token code keyword">    end</span>
+<span class="token code keyword">    Note right of 王五: 合理 食物 &lt;br/>看医生...</span>
+<span class="token code keyword">    李四-->>张三: 很好!</span>
+<span class="token code keyword">    王五->李四: 你怎么样?</span>
+<span class="token code keyword">    李四-->王五: 很好!</span>
+​```
+</code></pre>
+<h3><span id="3-甘特图">3、甘特图</span></h3><pre class=" language-markdown"><code class="language-markdown">​```mermaid
+%% 语法示例
+<span class="token code keyword">        gantt</span>
+<span class="token code keyword">        dateFormat  YYYY-MM-DD</span>
+<span class="token code keyword">        title 软件开发甘特图</span>
+<span class="token code keyword">        section 设计</span>
+<span class="token code keyword">        需求                      :done,    des1, 2014-01-06,2014-01-08</span>
+<span class="token code keyword">        原型                      :active,  des2, 2014-01-09, 3d</span>
+<span class="token code keyword">        UI设计                     :         des3, after des2, 5d</span>
+<span class="token code keyword">    未来任务                     :         des4, after des3, 5d</span>
+<span class="token code keyword">        section 开发</span>
+<span class="token code keyword">        学习准备理解需求                      :crit, done, 2014-01-06,24h</span>
+<span class="token code keyword">        设计框架                             :crit, done, after des2, 2d</span>
+<span class="token code keyword">        开发                                 :crit, active, 3d</span>
+<span class="token code keyword">        未来任务                              :crit, 5d</span>
+<span class="token code keyword">        耍                                   :2d</span>
+<span class="token code keyword">        section 测试</span>
+<span class="token code keyword">        功能测试                              :active, a1, after des3, 3d</span>
+<span class="token code keyword">        压力测试                               :after a1  , 20h</span>
+<span class="token code keyword">        测试报告                               : 48h</span>
+​```
+</code></pre>
+
                 
             </div>
             <hr/>
@@ -494,7 +612,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">狮说编程</a>
+                    <a href="/about" rel="external nofollow noreferrer">rookie-zeng</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -504,7 +622,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zengnanyang.github.io/blog/1506231508.html">https://zengnanyang.github.io/blog/1506231508.html</a>
+                    <a href="https://zengnanyang.github.io/1506231509.html">https://zengnanyang.github.io/1506231509.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -517,7 +635,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">狮说编程</a>
+                    <a href="/about" target="_blank">rookie-zeng</a>
                     !
                 </span>
             </div>
@@ -714,7 +832,7 @@
         repo: 'blog-comments',
         owner: 'zengnanyang',
         admin: ["zengnanyang"],
-        id: '2021-07-10T23-19-35',
+        id: '2021-02-27T11-51-47',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -742,29 +860,28 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/blog/1506231508.html">
+                <a href="/2684052423.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/zengnanyang/images/markdown/markdown-senior.jpg" class="responsive-img" alt="Markdown语法进阶">
+                        <img src="https://cdn.jsdelivr.net/gh/zengnanyang/images/hexo/hexo.jpg" class="responsive-img" alt="Hexo从零开始搭建技术博客">
                         
-                        <span class="card-title">Markdown语法进阶</span>
+                        <span class="card-title">Hexo从零开始搭建技术博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            在《Markdown入门教程》中，我们可以学习到Markdown的基本语法，但Markdown的强大远不止这些，本课程还将介绍插入图片、超链接的高级用法，还会讲解如何利用Markdown进行流程图、时序图和甘特图的绘制。
+                            随着计算机技术的飞速发展，拥有一个属于自己的博客，已经成了一件非常平常的事。目前市面上的博客网站模板十分丰富，其中Hexo + Github Page的方式最受欢迎，接下来我就根据我搭建博客的经历，给大家分享如何从零搭建属于自己的博客。
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-10
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-01
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -777,12 +894,11 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
                     </a>
                     
                 </div>
@@ -796,10 +912,10 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/blog/2157141774.html">
+                <a href="/2157141773.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/zengnanyang/images/markdown/markdown.jpg" class="responsive-img" alt="Markdown入门教程（二）">
+                        <img src="https://cdn.jsdelivr.net/gh/zengnanyang/images/markdown/markdown-main.jpg" class="responsive-img" alt="Markdown入门教程（二）">
                         
                         <span class="card-title">Markdown入门教程（二）</span>
                     </div>
@@ -807,12 +923,12 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。当前许多网站都广泛使用 Markdown来撰写帮助文档或是用于论坛上发表消息，本教程将使用 Typora 编辑器来讲解 Markdown 的语法。
+                            通过对《Markdown入门教程（一）》的学习，我们清楚了标题、文本等部分的语法规则，本讲继续给大家讲解区块、链接、图片和表格部分的知识。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-27
                             </span>
                         <span class="publish-author">
                             
@@ -1035,7 +1151,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">1.4k</span>
+                        class="white-color">1.7k</span>
             
             
             

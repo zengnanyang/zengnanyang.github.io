@@ -6,29 +6,55 @@
   <link href="https://zengnanyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zengnanyang.github.io/"/>
-  <updated>2021-07-11T04:03:47.321Z</updated>
+  <updated>2021-02-28T22:47:23.000Z</updated>
   <id>https://zengnanyang.github.io/</id>
   
   <author>
-    <name>曾南洋</name>
+    <name>rookie-zeng</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo从零开始搭建技术博客</title>
+    <link href="https://zengnanyang.github.io/2684052423.html"/>
+    <id>https://zengnanyang.github.io/2684052423.html</id>
+    <published>2021-02-28T22:47:23.000Z</published>
+    <updated>2021-02-28T22:47:23.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;一-前言&quot;&gt;一、前言&lt;/span&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;随着计算机技术的飞速发展，拥有一个属于自己的技术博客，已经成了一件非常平常的事。目前市面上的博客网站模板十分丰富，其中Hexo + Github</summary>
+        
+      
+    
+    
+    
+    <category term="基础教程" scheme="https://zengnanyang.github.io/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://zengnanyang.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown语法进阶</title>
-    <link href="https://zengnanyang.github.io/blog/1506231508.html"/>
-    <id>https://zengnanyang.github.io/blog/1506231508.html</id>
-    <published>2021-07-10T15:19:35.000Z</published>
-    <updated>2021-07-11T04:03:47.321Z</updated>
+    <link href="https://zengnanyang.github.io/1506231509.html"/>
+    <id>https://zengnanyang.github.io/1506231509.html</id>
+    <published>2021-02-27T03:51:47.000Z</published>
+    <updated>2021-02-27T03:51:47.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2&gt;&lt;span id=&quot;一-前言&quot;&gt;一、前言&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span</summary>
+    <summary type="html">&lt;h2&gt;&lt;span</summary>
         
       
     
@@ -43,10 +69,10 @@
   
   <entry>
     <title>Markdown入门教程（二）</title>
-    <link href="https://zengnanyang.github.io/blog/2157141774.html"/>
-    <id>https://zengnanyang.github.io/blog/2157141774.html</id>
-    <published>2021-07-04T04:09:12.000Z</published>
-    <updated>2021-07-11T03:09:31.047Z</updated>
+    <link href="https://zengnanyang.github.io/2157141773.html"/>
+    <id>https://zengnanyang.github.io/2157141773.html</id>
+    <published>2021-02-27T02:23:04.000Z</published>
+    <updated>2021-02-27T02:23:04.000Z</updated>
     
     
       
@@ -54,7 +80,7 @@
         
         
     <summary type="html">&lt;h2&gt;&lt;span id=&quot;一-前言&quot;&gt;一、前言&lt;/span&gt;&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://baike.baidu.com/item/markdown/3245829?fr=aladdin&quot;&gt;Markdown&lt;/a&gt;</summary>
+&lt;p&gt;通过对&lt;a href=&quot;https://zengnanyang.top/2961552341.html&quot;&gt;《Markdown入门教程（一）》&lt;/a&gt; 的学习，我们对</summary>
         
       
     
@@ -69,10 +95,10 @@
   
   <entry>
     <title>Markdown入门教程（一）</title>
-    <link href="https://zengnanyang.github.io/blog/1300200644.html"/>
-    <id>https://zengnanyang.github.io/blog/1300200644.html</id>
-    <published>2021-07-04T04:09:12.000Z</published>
-    <updated>2021-07-11T04:22:31.586Z</updated>
+    <link href="https://zengnanyang.github.io/2961552341.html"/>
+    <id>https://zengnanyang.github.io/2961552341.html</id>
+    <published>2021-02-27T00:09:12.000Z</published>
+    <updated>2021-02-27T00:09:12.000Z</updated>
     
     
       

@@ -300,7 +300,28 @@
 
             <div class="description center-align">
                 
-                    
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: [ 
+                            
+                                "如果放弃太早，你永远都不知道自己会错过什么。",
+                            
+                                "没有伞的孩子必须努力奔跑！",
+                            
+                                "花开不是为了花落，而是为了开的更加灿烂。",
+                            
+                                "没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。",
+                            
+                        ],
+                        startDelay: 400,
+                        typeSpeed: 200,
+                        loop: true,
+                        backSpeed: 100,
+                        showCursor: true
+                    });
+                </script>
                 
             </div>
         </div>
@@ -331,10 +352,19 @@
             <div class="tag-chips">
                 
                 
+                <a href="/tags/Hexo/" title="Hexo: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Hexo" style="background-color: #F9EBEA;">Hexo
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/Markdown/" title="Markdown: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Markdown" style="background-color: #F9EBEA;">Markdown
+                            data-tagname="Markdown" style="background-color: #F5EEF8;">Markdown
                         <span class="tag-length">3</span>
                     </span>
                 </a>
@@ -363,7 +393,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"Markdown","weight":3,"link":"/tags/Markdown/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"Hexo","weight":1,"link":"/tags/Hexo/"},{"text":"Markdown","weight":3,"link":"/tags/Markdown/"}], {
         autoResize: true
     });
 </script>
@@ -444,7 +474,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">1.4k</span>
+                        class="white-color">1.7k</span>
             
             
             
