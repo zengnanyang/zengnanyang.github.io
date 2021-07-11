@@ -6,7 +6,7 @@
   <link href="https://zengnanyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zengnanyang.github.io/"/>
-  <updated>2021-07-04T15:53:56.745Z</updated>
+  <updated>2021-07-11T04:03:47.321Z</updated>
   <id>https://zengnanyang.github.io/</id>
   
   <author>
@@ -17,19 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Markdown入门教程</title>
-    <link href="https://zengnanyang.github.io/blog/1300200644.html"/>
-    <id>https://zengnanyang.github.io/blog/1300200644.html</id>
-    <published>2021-07-04T04:09:12.000Z</published>
-    <updated>2021-07-04T15:53:56.745Z</updated>
+    <title>Markdown语法进阶</title>
+    <link href="https://zengnanyang.github.io/blog/1506231508.html"/>
+    <id>https://zengnanyang.github.io/blog/1506231508.html</id>
+    <published>2021-07-10T15:19:35.000Z</published>
+    <updated>2021-07-11T04:03:47.321Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2&gt;&lt;span id=&quot;一-markdown是什么&quot;&gt;一、Markdown是什么&lt;/span&gt;&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;一-前言&quot;&gt;一、前言&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span</summary>
         
       
     
@@ -40,7 +39,57 @@
     
     <category term="Markdown" scheme="https://zengnanyang.github.io/tags/Markdown/"/>
     
-    <category term="Typora" scheme="https://zengnanyang.github.io/tags/Typora/"/>
+  </entry>
+  
+  <entry>
+    <title>Markdown入门教程（二）</title>
+    <link href="https://zengnanyang.github.io/blog/2157141774.html"/>
+    <id>https://zengnanyang.github.io/blog/2157141774.html</id>
+    <published>2021-07-04T04:09:12.000Z</published>
+    <updated>2021-07-11T03:09:31.047Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;一-前言&quot;&gt;一、前言&lt;/span&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://baike.baidu.com/item/markdown/3245829?fr=aladdin&quot;&gt;Markdown&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="基础教程" scheme="https://zengnanyang.github.io/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Markdown" scheme="https://zengnanyang.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown入门教程（一）</title>
+    <link href="https://zengnanyang.github.io/blog/1300200644.html"/>
+    <id>https://zengnanyang.github.io/blog/1300200644.html</id>
+    <published>2021-07-04T04:09:12.000Z</published>
+    <updated>2021-07-11T04:22:31.586Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;一-前言&quot;&gt;一、前言&lt;/span&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://baike.baidu.com/item/markdown/3245829?fr=aladdin&quot;&gt;Markdown&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="基础教程" scheme="https://zengnanyang.github.io/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Markdown" scheme="https://zengnanyang.github.io/tags/Markdown/"/>
     
   </entry>
   
